@@ -1,0 +1,15 @@
+interface:
+  display_name: Application Documentation
+  short_description: Dokumentasi HTML interaktif dan ekspor PDF, PPTX, gambar
+  default_prompt: Gunakan $application-documentation untuk membuat dokumentasi aplikasi;
+    tanyakan cakupan lengkap atau bagian tertentu yang saya tulis sendiri jika belum
+    ditentukan, lalu periksa kelengkapan semua hasil yang disepakati.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
